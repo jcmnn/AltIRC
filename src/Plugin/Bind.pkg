@@ -1,0 +1,30 @@
+$#include "Bind.h"
+$hfile "ToluaTest.h"
+$hfile "../Network/Socket.h"
+$hfile "../Network/IPSocket.h"
+$hfile "../Network/TcpSocket.h"
+$hfile "../Network/NetworkBuffer.h"
+$hfile "../ProtocolHandler.h"
+$hfile "../IrcMessage.h"
+$hfile "../Logger.h"
+$hfile "../AltIrc.h"
+$hfile "../IrcConnection.h"
+$hfile "../ConnectionHandler.h"
+$hfile "CallbackHandler.h"
+$hfile "PluginManager.h"
+
+typedef double size_t;
+typedef double ssize_t;
+
+
+$[
+function registerEvent(...)
+    return AltIrc:get():pluginManager():callbackHandler():registerEvent(...)
+end
+
+function unregisterEvent(...)
+    return AltIrc:get():pluginManager():callbackHandler():unregisterEvent(...)
+end
+$]
+
+$lfile "Commands.lua"
