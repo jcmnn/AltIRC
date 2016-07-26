@@ -1,5 +1,5 @@
 local servers = { -- Format: {"hostname", port, "Nickname", "Username", "Real name", {"#channel1", "#channel2"}};
-    {"irc.esper.net", 6667, "AltBot", "AltBot", "AltBot", {"#altenius", "#V"}};
+    {"irc.example.org", 6667, "AltBot", "AltBot", "AltBot", {"#channel1", "#channel2"}};
 }
 
 
