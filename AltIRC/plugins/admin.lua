@@ -1,4 +1,5 @@
 local admins = {
+    -- Format: ["Nickname"] = "password";
     ["Altenius"] = "password";
 }
 
