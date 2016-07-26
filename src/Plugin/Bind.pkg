@@ -1,5 +1,4 @@
 $#include "Bind.h"
-$hfile "ToluaTest.h"
 $hfile "../Network/Socket.h"
 $hfile "../Network/IPSocket.h"
 $hfile "../Network/TcpSocket.h"

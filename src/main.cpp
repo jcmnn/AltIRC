@@ -1,7 +1,3 @@
-#include <iostream>
-
-#include "Network/TcpSocket.h"
-#include "Plugin/ToluaTest.h"
 #include "AltIrc.h"
 #include "LuaState.h"
 #include <csignal>

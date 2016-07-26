@@ -3,7 +3,6 @@ project(AltIRC)
 
 set(SOURCES
         main.cpp
-        Plugin/ToluaTest.cpp
         Plugin/Bind.cpp
         Network/TcpSocket.cpp
         Network/Socket.cpp
@@ -22,7 +21,6 @@ set(SOURCES
 )
 
 set(HEADERS
-        Plugin/ToluaTest.h
         Plugin/Bind.h
         Network/TcpSocket.h
         Network/Socket.h
