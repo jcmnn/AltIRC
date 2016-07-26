@@ -1,1 +1,7 @@
 
+[submodule "lib/toluapp"]
+	path = lib/toluapp
+	url = https://github.com/Altenius/toluapp.git
+[submodule "lib/lua"]
+	path = lib/lua
+	url = https://github.com/Altenius/Lua.git
