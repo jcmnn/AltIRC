@@ -1,6 +1,6 @@
 AltIRC
 ======
-A generic IRC bot written in C++ with a Lua plugin system.
+A generic IRC bot for Linux written in C++ with a Lua plugin system.
 
 Configuration
 -------------
@@ -39,5 +39,11 @@ AltIRC currently has 5 commands preinstalled:
 Commands can be issued by sending a message to a channel the bot is active in or by sending a private message to the bot.
 
 Commands are used by prefixing your message with `$` (e.g. `$join #channel`)
+
+Todo
+----
+  * Add support for Windows
+  * Add support for OSX
+  * Add support for BSD
 
 Contributors: [Altenius](https://github.com/Altenius)
